@@ -1,15 +1,12 @@
 // Defining Constants
 const INCREMENT = 'INCREMENT';
 const DECREMENT = 'DECREMENT';
-const ADD_USER = 'ADD_USER';
 
 // initial state
 const inistalCounterstate = {
     count: 0,
 };
-const initialUserState = {
-    user: [{name:'Adil'}],
-}
+
 
 // action creator with actions
 const IncrementCounter = () => {
@@ -23,9 +20,3 @@ const DecrementCounter = () => {
     };
 };
 
-const AddUser = () => {
-    return{
-        type: ADD_USER,
-        payload: {name:'Amit'},
-    }
-}
