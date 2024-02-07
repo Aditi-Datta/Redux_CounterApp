@@ -24,7 +24,7 @@ const addUserReducer = (state=InitialState, action) => {
             }
            
         default:
-            state;
+          return state;
     }
 }
 
