@@ -14,6 +14,7 @@ const addUserAction = (newUser) => {
    }
 }
 
+// reducer for Products
 const addUserReducer = (state=InitialState, action) => { 
     switch (action.type) {
         case ADDUSER:
