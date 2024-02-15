@@ -23,6 +23,7 @@ const Counter = () => {
     
     <h1>Counter APP</h1>
 
+    
     <h3>Count: {count}</h3>
 
     <button onClick={handleIncrement}>Increment</button> <br></br> <br></br>
