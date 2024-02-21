@@ -22,6 +22,7 @@ function CounterView() {
     <button onClick={() => {dispatch(increaseByAmount(5)) }}>Increase By 5</button><br></br>
 
 
+    
 
 
     </div>
